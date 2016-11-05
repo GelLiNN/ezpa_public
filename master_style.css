@@ -594,3 +594,11 @@
 .loginDialogpasswordInput[data-state~="invalid"] .loginDialogpasswordInputerrorMessage {visibility:visible;}
 .loginDialogpasswordInput[data-state~="invalid"] input {border-color:#d74401;}
 .loginDialogpasswordInput[data-state~="invalid"] .loginDialogpasswordInputinput {border-color:red;}
+
+/* May be useful in the future
+<div class="testStyles" data-reactid=".0.0.p"></div>
+<div style="overflow:hidden;visibility:hidden;max-height:0;max-width:0;position:absolute;" data-reactid=".0.0.$fontsLoader">
+<style data-reactid=".0.0.$fontsLoader.0">
+    .font-ruler-content::after {content:"@#$%%^&*~IAO"}
+</style>
+*/
