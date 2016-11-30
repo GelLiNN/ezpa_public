@@ -376,8 +376,12 @@
 .mobileAppBannerget {border:1px solid #3798eb;border-radius:3px;padding:3px 10px;display:inline-block;}
 
 @media all and (max-width: 400px) and (min-width: 0px){
-    .mobileAppBannerget {position:absolute;top:22.5px;right:10px;float:none !important;}}
+    .mobileAppBannerget {position:absolute;top:22.5px;right:10px;float:none !important;}
+}
 @media all and (min-width: 401px){
-    .mobileAppBannerget {margin-top:22.5px;margin-left:30px !important;}}.siteBackground {width:100%;position:absolute;}
-.siteBackgroundbgBeforeTransition {position:absolute;top:0;}
-.siteBackgroundbgAfterTransition {position:absolute;top:0;}
+    .mobileAppBannerget {margin-top:22.5px;margin-left:30px !important;}
+}.siteBackground {width:100%;position:absolute;}.siteBackgroundbgBeforeTransition {
+    position:absolute;top:0;
+}.siteBackgroundbgAfterTransition {
+    position:absolute;top:0;
+}
