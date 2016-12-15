@@ -1,5 +1,5 @@
 #Front-end website codebase for
-![alt text](https://github.com/GelLiNN/ezpa_public/tree/master/assets/repo_pic.png "EZPA")
+![alt text](https://github.com/GelLiNN/ezpa_public/blob/master/assets/repo_pic.png "EZPA")
 For medical prescriptions and procedures.
 ##This is the place for:
 * Visual updates to public facing site.
