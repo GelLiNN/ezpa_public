@@ -23,6 +23,18 @@ img#comp-ihjai4yzdataItem-ihjak4ajimageimage:hover {
     -webkit-transition-duration: 0.5s; /* Safari */
 }
 
+.s2#comp-ihkhqn56 {
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+    opacity: 0.8;
+}
+
+#comp-itufl45jsubmit:hover, #comp-ihjdu39lsubmit:hover {
+    background-color: rgba(152, 169, 176, 1);
+    color: black;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s; /* Safari */
+}
+
 /*
 * RULES FROM PARASTORAGE ASSET
 * original location: https://static.parastorage.com/services/santa/1.1800.22/static/css/viewer.css
@@ -46,11 +58,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 body {
   font-size: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Maven Pro', Helvetica, Arial, 'Lucida Grande', sans-serif;
 }
 
 textarea, input, select {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Maven Pro', Helvetica, Arial, 'Lucida Grande', sans-serif;
   box-sizing: border-box;
 }
 
@@ -388,17 +400,17 @@ a.wixAppsLink img {
 * RULES MANUALLY PARSED FROM WIX WEBSITE
 * Fonts, colors, s# item style rules
 */
-.font_0 {font: normal normal normal 26px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#454545;}
-.font_1 {font: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#5F5E5D;}
-.font_2 {font: normal normal normal 56px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#454545;}
-.font_3 {font: normal normal normal 90px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif ;color:#454545;}
-.font_4 {font: normal normal normal 50px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#454545;}
-.font_5 {font: normal normal normal 33px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif ;color:#454545;}
-.font_6 {font: normal normal normal 20px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#454545;}
-.font_7 {font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#454545;}
-.font_8 {font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#454545;}
-.font_9 {font: normal normal normal 13px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#454545;}
-.font_10 {font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#5F5E5D;}
+.font_0 {font: normal normal normal 26px/1.4em 'Maven Pro', Verdana, sans-serif; color: #454545;}
+.font_1 {font: normal normal normal 16px/1.4em 'Maven Pro', Verdana, sans-serif; color: #5F5E5D;}
+.font_2 {font: normal normal normal 56px/1.4em 'Maven Pro', Verdana, sans-serif; color: #454545;}
+.font_3 {font: normal normal normal 90px/1.4em 'Maven Pro', Verdana, sans-serif; color: #454545;}
+.font_4 {font: normal normal normal 50px/1.4em 'Maven Pro', Verdana, sans-serif; color: #454545;}
+.font_5 {font: normal normal normal 33px/1.4em 'Maven Pro', Verdana, sans-serif; color: #454545;}
+.font_6 {font: normal normal normal 16px/1.2em 'Maven Pro', Verdana, sans-serif; color: #454545;}
+.font_7 {font: normal normal normal 17px/1.3em 'Maven Pro', Verdana, sans-serif; color: #454545;}
+.font_8 {font: normal normal normal 14px/1.4em 'Maven Pro', Verdana, sans-serif; color: #454545;}
+.font_9 {font: normal normal normal 13px/1.4em 'Maven Pro', Verdana, sans-serif; color: #454545;}
+.font_10 {font: normal normal normal 12px/1.4em 'Maven Pro', Verdana, sans-serif; color: #5F5E5D;}
 
 .color_0 {color: #FFFFFF;}
 .backcolor_0 {background-color: #FFFFFF;}
@@ -477,7 +489,7 @@ a.wixAppsLink img {
 .s0[data-state~="mobileView"] {position:absolute !important;}
 .s0[data-state~="fixedPosition"] {position:fixed !important;left:auto !important;z-index:50;}
 .s0[data-state~="fixedPosition"].s0_footer {top:auto;bottom:0;}
-.s0_bg {position:absolute;top:0;right:0;bottom:0;left:0; background-color:rgba(161, 195, 210, 1);border-top:0px solid rgba(69, 69, 69, 1);border-bottom:0px solid rgba(69, 69, 69, 1);background-image:url(https://static.parastorage.com/services/skins/2.1229.56/images/wysiwyg/core/themes/base/bevel_300.png);background-repeat:repeat-x;}
+.s0_bg {position:absolute;top:0;right:0;bottom:0;left:0; background-color:rgba(161, 195, 210, 1);border-top:0px solid rgba(69, 69, 69, 1);border-bottom:0px solid rgba(69, 69, 69, 1);}
 .s0bg {position:absolute;top:0px;right:0;bottom:0px;left:0;}
 .s0[data-state~="mobileView"] .s0bg {left:10px;right:10px;}
 .s0inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}
@@ -518,7 +530,7 @@ a.wixAppsLink img {
 .s3[data-state~="mobileView"] {position:absolute !important;}
 .s3[data-state~="fixedPosition"] {position:fixed !important;left:auto !important;z-index:50;}
 .s3[data-state~="fixedPosition"].s3_footer {top:auto;bottom:0;}
-.s3_ln {bottom:-14px;height:14px;min-height:14px;background-image:url(https://static.parastorage.com/services/skins/2.1229.56/images/wysiwyg/core/themes/base/shadowbottom.png);position:absolute;}
+.s3_ln {bottom:-14px;height:14px;min-height:14px;position:absolute;}
 .s3_left {background-position:0 -29px;width:100px;left:0;}
 .s3_right {background-position:100% -29px;width:100px;right:0;}
 .s3_center {background-position:0 0;right:100px;left:100px;}
@@ -546,7 +558,7 @@ a.wixAppsLink img {
 .s5repeaterButton {height:100%;position:relative;box-sizing:border-box;display:inline-block;cursor:pointer;background-color:transparent;transition: background-color 0.4s ease 0s;}
 .s5repeaterButton[data-state~="header"] a,.s5repeaterButton[data-state~="header"] div {cursor:default !important;}
 .s5repeaterButton_gapper {padding:0 5px;border-left:1px solid rgba(224, 224, 224, 1);}
-.s5repeaterButtonlabel {display:inline-block;padding:0 10px;font:normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;  color:#515D87;transition: color 0.4s ease 0s;}
+.s5repeaterButtonlabel {display:inline-block;padding:0 10px;font:normal normal normal 14px/1.4em 'Maven Pro',Verdana,sans-serif;color:#515D87;transition: color 0.4s ease 0s;}
 .s5repeaterButton[data-listposition="left"] {border-radius:0;  border-top-right-radius:0;border-bottom-right-radius:0;}
 .s5repeaterButton[data-listposition="left"] .s5repeaterButton_gapper {border:0;border-left:none;}
 .s5repeaterButton[data-listposition="right"] {border-radius:0;  border-top-left-radius:0;border-bottom-left-radius:0;}
