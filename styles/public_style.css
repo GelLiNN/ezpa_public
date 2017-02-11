@@ -7,6 +7,22 @@
     overflow: hidden;
 }
 
+.s5repeaterButton:hover {
+    background-color: rgba(161, 195, 210, 1);
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s; /* Safari */
+}
+
+img#comp-ihjai4yzdataItem-ihjai4yz2imageimage:hover,
+img#comp-ihjai4yzdataItem-ihjai4z01imageimage:hover,
+img#comp-ihjai4yzdataItem-ihjak4ajimageimage:hover {
+    /* Social Links */
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px;
+    transition-duration: 0.5s
+    -webkit-transition-duration: 0.5s; /* Safari */
+}
+
 /*
 * RULES FROM PARASTORAGE ASSET
 * original location: https://static.parastorage.com/services/santa/1.1800.22/static/css/viewer.css
