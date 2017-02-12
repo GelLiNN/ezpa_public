@@ -36,6 +36,28 @@ img#comp-ihjai4yzdataItem-ihjak4ajimageimage:hover {
 }
 
 /*
+* RULES FOR SERVICES ANIMATION
+*/
+body {
+  margin: 0px;
+  width:100%;
+  margin:auto;
+  min-width:600px;
+  max-width:2000px;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  z-index: 9998;
+  opacity: 0.2;
+}
+
+/*
 * RULES FROM PARASTORAGE ASSET
 * original location: https://static.parastorage.com/services/santa/1.1800.22/static/css/viewer.css
 */
