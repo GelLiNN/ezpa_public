@@ -57,6 +57,44 @@ canvas {
   opacity: 0.2;
 }
 
+/* RULES FOR SITE INDEX */
+body#index_body {
+
+}
+
+/* RULES FOR HOME */
+/* Home office image transition */
+#comp-ihkhj4ukdataItem-ihkhj4uk2image {
+    background-image: url('../assets/images/home_office_blue.png');
+    margin-top: 55px;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+}
+
+#comp-ihkhj4ukdataItem-ihkhj4uk2image:hover {
+    background-image: url('../assets/images/home_office_color.png');
+    -webkit-transition: background-image 0.5s ease-in-out;
+    transition: background-image 0.5s ease-in-out;
+}
+
+/* Home data image transition */
+#comp-ihkhjsqjdataItem-ihkhjsqj2image {
+    background-image: url('../assets/images/home_data_blue.png');
+    margin-top: 55px;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+}
+
+#comp-ihkhjsqjdataItem-ihkhjsqj2image:hover {
+    background-image: url('../assets/images/home_data_color.png');
+    -webkit-transition: background-image 0.5s ease-in-out;
+    transition: background-image 0.5s ease-in-out;
+}
+
 /*
 * RULES FROM PARASTORAGE ASSET
 * original location: https://static.parastorage.com/services/santa/1.1800.22/static/css/viewer.css
@@ -624,8 +662,7 @@ a.wixAppsLink img {
 .s10[data-disabled="false"]:active[data-state~="mobile"] .s10label,.s10[data-disabled="false"]:hover[data-state~="desktop"] .s10label {color:#E0E0E0;}
 .s10[data-disabled="true"] .s10link {background-color:rgba(204, 204, 204, 1);border-color:rgba(204, 204, 204, 1);}
 .s10[data-disabled="true"] .s10label {color:#FFFFFF;}
-.s11link {position:relative;display:block;z-index:0;overflow:visible;-ms-touch-action:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;}
-.s11link:after {content:"";position:absolute;z-index:5;width:100%;height:100%;display:block;}
+.s11link {position:relative;display:block;z-index:0;overflow:hidden;-ms-touch-action:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;}
 .s11defaultImage {position:absolute;opacity:1;}
 .s11hoverImage {position:absolute;opacity:0;}
 .s11activeImage {position:absolute;opacity:0;}

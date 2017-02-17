@@ -6,6 +6,8 @@
         <meta charset="utf-8">
         <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="assets/favicon.ico" type="image/x-icon">
+        <!-- meta for index redirect -->
+        <meta http-equiv="refresh" content="0; url=home.html" />
 
         <!--public_style reference-->
         <link href='//fonts.googleapis.com/css?family=Maven Pro' rel='stylesheet'>
@@ -16,6 +18,7 @@
         <script src="https://apis.google.com/js/client.js?onload=onLoadCallback" async defer></script>
         <script src="scripts/require.min.js"></script>
     </head>
-    <body>
+    <body id="index_body">
+        <p><a id="index_redirect" href="home.html">Redirect</a></p>
     </body>
 </html>
